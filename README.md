@@ -1,7 +1,7 @@
 # Location Package
 A Drupal Content Package for creating rich location content.
 
-The Location Content Package is a Drupal feature cretated using Features module (fetures is not a dependency). Location contains everything you need to immediately begin creating location content. Locations can be anything from brick-and-mortar stores to branch offices to music venues.
+The Location Content Package is a Drupal feature created using Features module (fetures is not a dependency). Location contains everything you need to immediately begin creating location content. Locations can be anything from brick-and-mortar stores to branch offices to music venues.
 ##To use
 Clone this repo into your modules directory, download the dependencies from Drupal.org. Address and it's libraries must be installed using composer (see the address project page at https://www.drupal.org/project/address for instructions). Voting API and widgets can be installed via the modules UI. Once the modules are visible on the 'extend' select 'Location','Map','Review' and 'Featured location' (if needed). and click 'install'. Drupal will detect the dependencies and ask if you want to install them. Click yes and the packages will be installed. 
 
