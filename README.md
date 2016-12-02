@@ -19,12 +19,13 @@ Once loaded into your database all of the default configuration can be changed i
 
 ##Location includes 
 ###Content types
-  Location
-  Map
+Location, Map
 ###Comment types
-  Review
+Review
+###Custom block types
+Featured Location
 ###Views
-  Locations (page and block)
+Locations (page and block)
   
 ##Dependencies
 Drupal core, address, voting API, voting API widgets, (voting API and widgets required for review only)
