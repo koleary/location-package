@@ -26,8 +26,7 @@ Review
 Featured Location
 ####Views
 Locations (page and block)
-  
-##Dependencies
+####Dependencies
 Drupal core, address, voting API, voting API widgets, (voting API and widgets required for review only)
 
 
