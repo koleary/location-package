@@ -9,16 +9,18 @@ Content packages are designed to be immediately usable and fully marked up for S
 Location depends on the address module developed for Drupal Commerce. Address uses the most robust and up-to-date libraries to provide the proper address formats and postal codes for hundreds of countries.
 ##Fully configured
 Location includes base field overrides, sane default human-readable field names and descriptions for every field as well as field formatters that provide the simplest most common experience. 
+
 ##Fully customizable
 Once loaded into your database all of the default configuration can be changed if needed using standard Drupal configuration interfaces.
+
 ##Location includes 
--Content types
---Location
---Map
-Comment types
---Review
--Views
---Locations (page and block)
+###Content types
+  Location
+  Map
+###Comment types
+  Review
+###Views
+  Locations (page and block)
 
 
 
