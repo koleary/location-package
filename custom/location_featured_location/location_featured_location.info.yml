@@ -1,0 +1,17 @@
+name: 'Featured Location'
+description: 'Provides Featured Location custom block type and related configuration. A block to feature a single location on any page.'
+type: module
+core: 8.x
+dependencies:
+  - block_content
+  - field
+  - image
+  - language
+  - link
+  - location_afhi_place
+  - location_core
+  - location_xutq_map
+  - menu_ui
+  - node
+  - user
+package: Location

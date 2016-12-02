@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.afhi_containsplace
+    - node.type.afhi_place
+id: node.afhi_place.afhi_containsplace
+field_name: afhi_containsplace
+entity_type: node
+bundle: afhi_place
+label: Contains
+description: 'If the location contains other locations with fixed addresses, like an office building with suites, include relevant sub-locations.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      afhi_place: afhi_place
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.xutq_map
+id: node.xutq_map.title
+field_name: title
+entity_type: node
+bundle: xutq_map
+label: 'Map name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

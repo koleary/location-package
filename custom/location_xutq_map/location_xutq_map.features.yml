@@ -1,0 +1,21 @@
+bundle: location
+required:
+  - core.base_field_override.node.xutq_map.promote
+  - core.base_field_override.node.xutq_map.title
+  - core.entity_form_display.node.xutq_map.default
+  - core.entity_form_display.node.afhi_place.default
+  - core.entity_view_display.node.xutq_map.default
+  - core.entity_view_display.node.afhi_place.address_listing_short
+  - core.entity_view_display.node.afhi_place.full
+  - core.entity_view_display.node.afhi_place.teaser
+  - core.entity_view_mode.node.map_only
+  - field.field.node.xutq_map.field_embedded_map_url
+  - field.field.node.xutq_map.xutq_contentlocation
+  - field.field.node.xutq_map.xutq_image
+  - field.field.node.afhi_place.afhi_hasmap
+  - language.content_settings.node.xutq_map
+  - rdf.mapping.node.xutq_map
+  - node.type.xutq_map
+  - field.storage.node.field_embedded_map_url
+  - field.storage.node.xutq_contentlocation
+  - field.storage.node.xutq_image

@@ -1,0 +1,42 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.review
+    - field.field.comment.review.field_rating
+    - field.field.comment.review.field_review_body
+  module:
+    - text
+    - votingapi_widgets
+id: comment.review.default
+targetEntityType: comment
+bundle: review
+mode: default
+content:
+  field_rating:
+    weight: 2
+    settings:
+      show_initial_vote: 0
+    third_party_settings: {  }
+    type: voting_api_widget
+    region: content
+  field_review_body:
+    weight: 1
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  subject:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  author: true
+  langcode: true

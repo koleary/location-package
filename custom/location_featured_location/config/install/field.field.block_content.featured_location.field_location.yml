@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_location
+    - field.storage.block_content.field_location
+    - node.type.afhi_place
+id: block_content.featured_location.field_location
+field_name: field_location
+entity_type: block_content
+bundle: featured_location
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      afhi_place: afhi_place
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

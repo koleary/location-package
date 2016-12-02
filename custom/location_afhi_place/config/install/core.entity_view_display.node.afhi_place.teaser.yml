@@ -1,0 +1,52 @@
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.afhi_place.afhi_containedinplace
+    - field.field.node.afhi_place.afhi_containsplace
+    - field.field.node.afhi_place.afhi_description
+    - field.field.node.afhi_place.afhi_hasmap
+    - field.field.node.afhi_place.afhi_image
+    - field.field.node.afhi_place.afhi_logo
+    - field.field.node.afhi_place.afhi_openinghoursspecification
+    - field.field.node.afhi_place.afhi_specialopeninghoursspecific
+    - field.field.node.afhi_place.afhi_url
+    - field.field.node.afhi_place.field_address
+    - field.field.node.afhi_place.field_review
+    - node.type.afhi_place
+  module:
+    - address
+    - user
+id: node.afhi_place.teaser
+targetEntityType: node
+bundle: afhi_place
+mode: teaser
+content:
+  afhi_openinghoursspecification:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_address:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+hidden:
+  afhi_containedinplace: true
+  afhi_containsplace: true
+  afhi_description: true
+  afhi_hasmap: true
+  afhi_image: true
+  afhi_logo: true
+  afhi_specialopeninghoursspecific: true
+  afhi_url: true
+  field_review: true
+  langcode: true
+  links: true

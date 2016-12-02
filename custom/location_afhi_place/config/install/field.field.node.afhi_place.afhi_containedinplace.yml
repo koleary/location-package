@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.afhi_containedinplace
+    - node.type.afhi_place
+id: node.afhi_place.afhi_containedinplace
+field_name: afhi_containedinplace
+entity_type: node
+bundle: afhi_place
+label: 'Located in'
+description: 'If the location is inside another location, like a store in a mall, specify the parent location.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      afhi_place: afhi_place
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

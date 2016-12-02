@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.review
+    - field.field.comment.review.field_rating
+    - field.field.comment.review.field_review_body
+  module:
+    - text
+    - votingapi_widgets
+id: comment.review.default
+targetEntityType: comment
+bundle: review
+mode: default
+content:
+  field_rating:
+    weight: 102
+    label: above
+    settings:
+      style: fontawesome-stars
+      readonly: '1'
+      show_results: '1'
+      values: {  }
+    third_party_settings: {  }
+    type: voting_api_formatter
+    region: content
+  field_review_body:
+    weight: 101
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

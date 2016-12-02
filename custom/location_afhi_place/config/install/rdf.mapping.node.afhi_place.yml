@@ -1,0 +1,55 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.afhi_place
+  module:
+    - node
+id: node.afhi_place
+targetEntityType: node
+bundle: afhi_place
+types:
+  - 'schema:Place'
+fieldMappings:
+  afhi_containedinplace:
+    properties:
+      - 'schema:containedInPlace'
+  afhi_containsplace:
+    properties:
+      - 'schema:containsPlace'
+  afhi_description:
+    properties:
+      - 'schema:description'
+  afhi_hasmap:
+    properties:
+      - 'schema:hasMap'
+  afhi_image:
+    properties:
+      - 'schema:image'
+  afhi_logo:
+    properties:
+      - 'schema:logo'
+  afhi_openinghoursspecification:
+    properties:
+      - 'schema:openingHoursSpecification'
+  afhi_review:
+    properties:
+      - 'schema:review'
+  afhi_specialopeninghoursspecific:
+    properties:
+      - 'schema:specialOpeningHoursSpecification'
+  afhi_url:
+    properties:
+      - 'schema:url'
+  title:
+    properties:
+      - 'schema:name'
+  field_address:
+    properties:
+      - 'schema:address'
+  field_review:
+    properties:
+      - 'schema:review'
+  field_phone:
+    properties:
+      - 'schema:telephone'

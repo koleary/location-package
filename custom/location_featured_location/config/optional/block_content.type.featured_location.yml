@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: featured_location
+label: 'Featured Location'
+revision: 0
+description: 'A block to feature a single location on any page.'

@@ -1,0 +1,27 @@
+name: Location
+description: 'Provides Location content type and related configuration. A physical location like a store, venue, or office.'
+type: module
+core: 8.x
+dependencies:
+  - address
+  - block
+  - block_content
+  - comment
+  - field
+  - file
+  - image
+  - language
+  - link
+  - location_core
+  - location_featured_location
+  - location_xutq_map
+  - menu_ui
+  - node
+  - rdf
+  - telephone
+  - text
+  - themeless_block
+  - user
+  - views
+  - votingapi_widgets
+package: Location

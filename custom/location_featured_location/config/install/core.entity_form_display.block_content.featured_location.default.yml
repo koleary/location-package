@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.featured_location
+    - field.field.block_content.featured_location.field_location
+id: block_content.featured_location.default
+targetEntityType: block_content
+bundle: featured_location
+mode: default
+content:
+  field_location:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true

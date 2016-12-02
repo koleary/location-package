@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.review
+    - field.storage.comment.field_rating
+  module:
+    - votingapi_widgets
+id: comment.review.field_rating
+field_name: field_rating
+entity_type: comment
+bundle: review
+label: Rating
+description: 'Rate the location'
+required: false
+translatable: false
+default_value:
+  -
+    status: '1'
+    value: ''
+default_value_callback: ''
+settings:
+  anonymous_window: '-1'
+  user_window: '-1'
+  result_function: vote_average
+  widget_format: fivestar
+field_type: voting_api_field

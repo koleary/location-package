@@ -1,0 +1,18 @@
+name: Review
+description: 'Provides Review comment type and related configuration. Review of the content.'
+type: module
+core: 8.x
+dependencies:
+  - address
+  - comment
+  - field
+  - image
+  - link
+  - location_afhi_place
+  - location_core
+  - location_featured_location
+  - location_xutq_map
+  - text
+  - user
+  - votingapi_widgets
+package: Location

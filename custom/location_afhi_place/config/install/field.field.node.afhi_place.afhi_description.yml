@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.afhi_description
+    - node.type.afhi_place
+id: node.afhi_place.afhi_description
+field_name: afhi_description
+entity_type: node
+bundle: afhi_place
+label: Description
+description: 'A brief description of the location, it''s attributes, and available amenities.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

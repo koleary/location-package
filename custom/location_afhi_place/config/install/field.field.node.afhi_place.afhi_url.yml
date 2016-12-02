@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.afhi_url
+    - node.type.afhi_place
+  module:
+    - link
+id: node.afhi_place.afhi_url
+field_name: afhi_url
+entity_type: node
+bundle: afhi_place
+label: Website
+description: 'If the location has it''s own separate website provide that here.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

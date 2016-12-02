@@ -1,0 +1,57 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.xutq_map.field_embedded_map_url
+    - field.field.node.xutq_map.xutq_contentlocation
+    - field.field.node.xutq_map.xutq_image
+    - image.style.thumbnail
+    - node.type.xutq_map
+  module:
+    - image
+    - link
+id: node.xutq_map.default
+targetEntityType: node
+bundle: xutq_map
+mode: default
+content:
+  field_embedded_map_url:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  xutq_contentlocation:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  xutq_image:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

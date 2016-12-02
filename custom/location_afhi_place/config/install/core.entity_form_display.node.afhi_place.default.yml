@@ -1,0 +1,116 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.afhi_place.afhi_containedinplace
+    - field.field.node.afhi_place.afhi_containsplace
+    - field.field.node.afhi_place.afhi_description
+    - field.field.node.afhi_place.afhi_hasmap
+    - field.field.node.afhi_place.afhi_image
+    - field.field.node.afhi_place.afhi_logo
+    - field.field.node.afhi_place.afhi_openinghoursspecification
+    - field.field.node.afhi_place.afhi_specialopeninghoursspecific
+    - field.field.node.afhi_place.afhi_url
+    - field.field.node.afhi_place.field_address
+    - field.field.node.afhi_place.field_phone
+    - field.field.node.afhi_place.field_review
+    - image.style.thumbnail
+    - node.type.afhi_place
+  module:
+    - address
+    - comment
+    - image
+    - link
+    - telephone
+id: node.afhi_place.default
+targetEntityType: node
+bundle: afhi_place
+mode: default
+content:
+  afhi_description:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  afhi_hasmap:
+    weight: 6
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  afhi_image:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  afhi_logo:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  afhi_openinghoursspecification:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  afhi_url:
+    weight: 8
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_address:
+    weight: 3
+    settings:
+      default_country: null
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_phone:
+    weight: 27
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_review:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  afhi_containedinplace: true
+  afhi_containsplace: true
+  afhi_specialopeninghoursspecific: true
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

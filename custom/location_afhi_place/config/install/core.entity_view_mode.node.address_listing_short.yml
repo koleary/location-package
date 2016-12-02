@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.address_listing_short
+label: 'Location listing, short'
+targetEntityType: node
+cache: true

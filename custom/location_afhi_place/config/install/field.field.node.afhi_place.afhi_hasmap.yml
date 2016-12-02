@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.afhi_hasmap
+    - node.type.afhi_place
+    - node.type.xutq_map
+id: node.afhi_place.afhi_hasmap
+field_name: afhi_hasmap
+entity_type: node
+bundle: afhi_place
+label: Map
+description: 'If there is a map of the location reference the map.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      xutq_map: xutq_map
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: afhi_place
+field_type: entity_reference

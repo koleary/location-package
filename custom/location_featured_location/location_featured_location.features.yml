@@ -1,0 +1,10 @@
+bundle: location
+required:
+  - core.entity_form_display.block_content.featured_location.default
+  - core.entity_view_display.block_content.featured_location.default
+  - core.entity_view_display.block_content.featured_location.full
+  - core.entity_view_display.node.xutq_map.map_only
+  - field.field.block_content.featured_location.field_location
+  - language.content_settings.block_content.featured_location
+  - node.type.afhi_place
+  - block_content.type.featured_location

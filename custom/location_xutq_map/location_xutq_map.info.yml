@@ -1,0 +1,23 @@
+name: Map
+description: 'Provides Map content type and related configuration. A map of a specific location.'
+type: module
+core: 8.x
+dependencies:
+  - address
+  - comment
+  - field
+  - file
+  - image
+  - language
+  - link
+  - location_afhi_place
+  - location_core
+  - location_featured_location
+  - location_review
+  - menu_ui
+  - node
+  - rdf
+  - text
+  - user
+  - votingapi_widgets
+package: Location

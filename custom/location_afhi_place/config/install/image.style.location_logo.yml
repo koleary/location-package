@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: location_logo
+label: 'Location logo (50 x ?)'
+effects:
+  1af8ff2c-9aa5-4787-af84-fe3bf0cae86f:
+    uuid: 1af8ff2c-9aa5-4787-af84-fe3bf0cae86f
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 50
+      upscale: true

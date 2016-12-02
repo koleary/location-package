@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.xutq_map
+  module:
+    - node
+id: node.xutq_map
+targetEntityType: node
+bundle: xutq_map
+types:
+  - 'schema:Map'
+fieldMappings:
+  xutq_contentlocation:
+    properties:
+      - 'schema:contentLocation'
+  xutq_image:
+    properties:
+      - 'schema:image'
+  xutq_maptype:
+    properties:
+      - 'schema:mapType'
+  title:
+    properties:
+      - 'schema:name'
+  field_embedded_map_url:
+    properties:
+      - 'schema:mapType'
