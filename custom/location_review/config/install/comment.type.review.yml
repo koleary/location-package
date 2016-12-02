@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: review
-label: Review
-target_entity_type_id: node
-description: 'Review of the content.'

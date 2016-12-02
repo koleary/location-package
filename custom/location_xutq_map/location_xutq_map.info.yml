@@ -13,11 +13,9 @@ dependencies:
   - location_afhi_place
   - location_core
   - location_featured_location
-  - location_review
   - menu_ui
   - node
   - rdf
   - text
   - user
-  - votingapi_widgets
 package: Location

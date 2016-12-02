@@ -16,7 +16,6 @@ required:
   - field.field.node.afhi_place.afhi_specialopeninghoursspecific
   - field.field.node.afhi_place.afhi_url
   - field.field.node.afhi_place.field_address
-  - field.field.node.afhi_place.field_review
   - field.field.block_content.themeless_block.field_image
   - language.content_settings.node.afhi_place
   - rdf.mapping.node.afhi_place

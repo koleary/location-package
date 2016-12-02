@@ -20,8 +20,6 @@ dependencies:
   - rdf
   - telephone
   - text
-  - themeless_block
   - user
   - views
-  - votingapi_widgets
 package: Location
