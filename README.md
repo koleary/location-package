@@ -18,13 +18,13 @@ Location includes base field overrides, sane default human-readable field names 
 Once loaded into your database all of the default configuration can be changed if needed using standard Drupal configuration interfaces.
 
 ##Location includes 
-###Content types
+####Content types
 Location, Map
-###Comment types
+####Comment types
 Review
-###Custom block types
+####Custom block types
 Featured Location
-###Views
+####Views
 Locations (page and block)
   
 ##Dependencies
