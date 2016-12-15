@@ -29,7 +29,7 @@ Drupal core, address, voting API, voting API widgets, (voting API and widgets re
 
 1. Clone this repo into your modules directory.
 
-2. Download Voting API and Voting API widgets, unzip and put them in the modules directory. 
+2. Download <a href="https://www.drupal.org/project/votingapi">Voting API</a> and <a href="https://www.drupal.org/project/votingapi_widgets">Voting API widgets</a>, unzip and put them in the modules directory. 
 
 3. Address must be installed via Composer, in order to get the required libraries.
 
