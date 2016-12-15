@@ -37,8 +37,8 @@ Drupal core, address, voting API, voting API widgets, (voting API and widgets re
 
 ```
 composer config repositories.drupal composer https://packages.drupal.org/8
-This allows Composer to find Address and the other Drupal modules.
 ```
+  This allows Composer to find Address and the other Drupal modules.
 
 5. Download Address
 
