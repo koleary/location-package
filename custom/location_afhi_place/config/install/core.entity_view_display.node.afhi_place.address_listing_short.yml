@@ -13,7 +13,7 @@ dependencies:
     - field.field.node.afhi_place.afhi_specialopeninghoursspecific
     - field.field.node.afhi_place.afhi_url
     - field.field.node.afhi_place.field_address
-    - field.field.node.afhi_place.field_review
+    - field.field.node.afhi_place.field_phone
     - node.type.afhi_place
   module:
     - address
@@ -47,6 +47,6 @@ hidden:
   afhi_logo: true
   afhi_specialopeninghoursspecific: true
   afhi_url: true
-  field_review: true
+  field_phone: true
   langcode: true
   links: true

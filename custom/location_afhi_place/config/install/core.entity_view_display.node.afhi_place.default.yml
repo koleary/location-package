@@ -13,13 +13,13 @@ dependencies:
     - field.field.node.afhi_place.afhi_url
     - field.field.node.afhi_place.field_address
     - field.field.node.afhi_place.field_phone
-    - image.style.thumbnail
+    - image.style.location_logo
     - node.type.afhi_place
   module:
     - address
     - image
     - link
-    - telephone
+    - user
 id: node.afhi_place.default
 targetEntityType: node
 bundle: afhi_place
@@ -27,82 +27,79 @@ mode: default
 content:
   afhi_description:
     weight: 1
-    settings:
-      rows: 5
-      placeholder: ''
+    label: visually_hidden
+    settings: {  }
     third_party_settings: {  }
-    type: string_textarea
+    type: basic_string
     region: content
   afhi_hasmap:
     weight: 6
+    label: visually_hidden
     settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
+      view_mode: map_only
+      link: false
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: entity_reference_entity_view
     region: content
   afhi_image:
     weight: 2
+    label: visually_hidden
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      image_style: location_image
+      image_link: content
     third_party_settings: {  }
-    type: image_image
+    type: image
     region: content
   afhi_logo:
-    weight: 4
+    weight: 5
+    label: visually_hidden
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      image_style: location_logo
+      image_link: content
     third_party_settings: {  }
-    type: image_image
+    type: image
     region: content
   afhi_openinghoursspecification:
-    weight: 5
+    weight: 4
+    label: above
     settings:
-      size: 60
-      placeholder: ''
+      link_to_entity: false
     third_party_settings: {  }
-    type: string_textfield
+    type: string
     region: content
   afhi_url:
     weight: 8
+    label: above
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
     third_party_settings: {  }
-    type: link_default
+    type: link
     region: content
   field_address:
     weight: 3
-    settings:
-      default_country: null
+    label: above
+    settings: {  }
     third_party_settings: {  }
     type: address_default
     region: content
   field_phone:
-    weight: 27
-    settings:
-      placeholder: ''
+    weight: 10
+    label: above
+    settings: {  }
     third_party_settings: {  }
-    type: telephone_default
+    type: basic_string
     region: content
-  title:
-    type: string_textfield
+  links:
     weight: 0
     region: content
-    settings:
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
 hidden:
   afhi_containedinplace: true
   afhi_containsplace: true
   afhi_specialopeninghoursspecific: true
-  created: true
   langcode: true
-  path: true
-  promote: true
-  sticky: true
-  uid: true

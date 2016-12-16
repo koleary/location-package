@@ -11,11 +11,10 @@ dependencies:
   - language
   - link
   - location_afhi_place
-  - location_core
   - location_featured_location
   - menu_ui
   - node
   - rdf
   - text
   - user
-package: Location
+package: location

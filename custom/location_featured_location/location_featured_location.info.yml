@@ -3,15 +3,15 @@ description: 'Provides Featured Location custom block type and related configura
 type: module
 core: 8.x
 dependencies:
+  - address
   - block_content
   - field
   - image
   - language
   - link
   - location_afhi_place
-  - location_core
   - location_xutq_map
   - menu_ui
   - node
   - user
-package: Location
+package: location
