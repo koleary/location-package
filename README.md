@@ -27,31 +27,27 @@ Drupal core, address, voting API, voting API widgets, (voting API and widgets re
 
 ##Installation
 
-1. Clone this repo into your modules directory.
+1. Clone this repo into the 'modules' directory of your Drupal 8 site.
 
-2. Download <a href="https://www.drupal.org/project/votingapi">Voting API</a> and <a href="https://www.drupal.org/project/votingapi_widgets">Voting API widgets</a>, unzip and put them in the modules directory. 
+2. Address must be installed via Composer, in order to get the required libraries.
 
-3. Address must be installed via Composer, in order to get the required libraries.
-
-4. Add the address Drupal.org repository
+3. Add the address Drupal.org repository
 
 ```
 composer config repositories.drupal composer https://packages.drupal.org/8
 ```
   This allows Composer to find Address and the other Drupal modules.
 
-5. Download Address
+4. Download Address:
 
 ```
 composer require "drupal/address ~1.0"
 ```
+5. On the 'Extend' page check the boxes for 'Location','Featured location', and 'Map', and click 'install'. Drupal will detect the dependencies and ask if you want to install them. Click yes and the packages will be installed. 
 
 ##To use
 
-Once the modules are visible on the 'extend' select 'Location','Map','Review' and 'Featured location' (if needed). and click 'install'. Drupal will detect the dependencies and ask if you want to install them. Click yes and the packages will be installed. 
-
-To begin creating location content go to the content page, click 'add content' and choose 'Location'.
-Address Module Installation
+To begin creating location content go to the content page, click 'add content' and choose 'Location', or 'map'. To create a featured location block, go to structure/block-layout/custom-blocks, click 'add custom block' and choose 'featured location'.
 
 
 
