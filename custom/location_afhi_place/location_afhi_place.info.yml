@@ -12,8 +12,6 @@ dependencies:
   - image
   - language
   - link
-  - location_featured_location
-  - location_xutq_map
   - menu_ui
   - node
   - rdf
@@ -21,4 +19,5 @@ dependencies:
   - text
   - user
   - views
+  - default_content
 package: location

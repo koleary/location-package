@@ -10,7 +10,7 @@ id: node.afhi_place.afhi_logo
 field_name: afhi_logo
 entity_type: node
 bundle: afhi_place
-label: 'Location logo'
+label: Logo
 description: 'The logo of the controlling organization or the location itself.'
 required: false
 translatable: false

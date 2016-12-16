@@ -1,0 +1,13 @@
+name: Location default content
+description: 'Provides default content for the location package.'
+type: module
+core: 8.x
+package: location
+default_content:
+    node:
+      - ffe0ae3e-4c26-485a-9974-c4c4cb7aa828
+      - 73d16df1-12f0-4361-9d7d-b49b80398e0f
+      - 7f186cf5-ac20-493e-954f-a205eafe5081
+      - db2c7404-2f28-4055-8742-d144cc6b1880
+    block_content:
+      - 6b3e5783-0d0a-4f7f-858d-463bff863265

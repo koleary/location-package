@@ -10,8 +10,8 @@ id: node.afhi_place.afhi_image
 field_name: afhi_image
 entity_type: node
 bundle: afhi_place
-label: 'Location image'
-description: 'A picture of the location.'
+label: Image
+description: 'A picture of the location, or an image to represent it.'
 required: false
 translatable: false
 default_value: {  }

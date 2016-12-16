@@ -10,7 +10,6 @@ dependencies:
   - language
   - link
   - location_afhi_place
-  - location_xutq_map
   - menu_ui
   - node
   - user

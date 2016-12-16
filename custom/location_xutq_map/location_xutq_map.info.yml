@@ -11,7 +11,6 @@ dependencies:
   - language
   - link
   - location_afhi_place
-  - location_featured_location
   - menu_ui
   - node
   - rdf

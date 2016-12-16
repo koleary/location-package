@@ -1,0 +1,111 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/featured_location"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/featured_location\/revision_user": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/featured_location\/field_location": [
+            {
+                "href": "http:\/\/default\/node\/7?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "3"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6b3e5783-0d0a-4f7f-858d-463bff863265"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": "3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "featured_location"
+        }
+    ],
+    "info": [
+        {
+            "value": "Featured Location",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1481919029",
+            "lang": "en"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "1481918751"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/featured_location\/revision_user": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9dd31d88-5a1b-4c9e-b4e2-5ccf35f4d9b1"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/featured_location\/field_location": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/afhi_place"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7f186cf5-ac20-493e-954f-a205eafe5081"
+                    }
+                ]
+            }
+        ]
+    },
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ]
+}

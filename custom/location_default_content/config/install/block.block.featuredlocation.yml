@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:featured_location:6b3e5783-0d0a-4f7f-858d-463bff863265'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: featuredlocation
+theme: bartik
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:6b3e5783-0d0a-4f7f-858d-463bff863265'
+settings:
+  id: 'block_content:6b3e5783-0d0a-4f7f-858d-463bff863265'
+  label: 'Featured Location'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

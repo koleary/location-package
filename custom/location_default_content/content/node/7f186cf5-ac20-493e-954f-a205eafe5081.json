@@ -1,0 +1,230 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/7?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/afhi_place"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/afhi_place\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/afhi_place\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/afhi_place\/afhi_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2016-12\/770px-Wikipedia_mini_globe_handheld.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/afhi_place\/afhi_logo": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2016-12\/250px-Wikimedia_Foundation_RGB_logo_with_text.svg_.png"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "7"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7f186cf5-ac20-493e-954f-a205eafe5081"
+        }
+    ],
+    "vid": [
+        {
+            "value": "11"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "afhi_place"
+        }
+    ],
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Wikimedia Foundation Office",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/afhi_place\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9dd31d88-5a1b-4c9e-b4e2-5ccf35f4d9b1"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/afhi_place\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9dd31d88-5a1b-4c9e-b4e2-5ccf35f4d9b1"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/afhi_place\/afhi_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2016-12\/770px-Wikipedia_mini_globe_handheld.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0bc4e56b-842a-440c-abd6-c0777b23545a"
+                    }
+                ],
+                "uri": [
+                    {
+                        "value": "http:\/\/default\/sites\/default\/files\/2016-12\/770px-Wikipedia_mini_globe_handheld.jpg"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/afhi_place\/afhi_logo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2016-12\/250px-Wikimedia_Foundation_RGB_logo_with_text.svg_.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3df9cc1d-c7b7-46d2-9e3c-49ac8b25df22"
+                    }
+                ],
+                "uri": [
+                    {
+                        "value": "http:\/\/default\/sites\/default\/files\/2016-12\/250px-Wikimedia_Foundation_RGB_logo_with_text.svg_.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "1481918126",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1481918524",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1481918524"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "afhi_description": [
+        {
+            "value": "The Headquarters of the Wikimedia Foundation"
+        }
+    ],
+    "afhi_openinghoursspecification": [
+        {
+            "value": "9:00 am. - 5:00 pm PST"
+        }
+    ],
+    "afhi_url": [
+        {
+            "uri": "https:\/\/wikimediafoundation.org",
+            "title": "wikimediafoundation.org",
+            "options": []
+        }
+    ],
+    "field_address": [
+        {
+            "langcode": null,
+            "country_code": "US",
+            "administrative_area": "CA",
+            "locality": "San Francisco",
+            "dependent_locality": null,
+            "postal_code": "94105",
+            "sorting_code": null,
+            "address_line1": "149 New Montgomery St",
+            "address_line2": "",
+            "organization": "Wikimedia Foundation",
+            "given_name": "Jimmy ",
+            "additional_name": null,
+            "family_name": "Wales"
+        }
+    ],
+    "field_phone": [
+        {
+            "value": "(415) 839-6885"
+        }
+    ]
+}
