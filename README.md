@@ -24,6 +24,8 @@ Locations (page and block)
 ####Dependencies
 Drupal core, address, voting API, voting API widgets, (voting API and widgets required for review only)
 
+If you want to see the default content you will also need Default Content module.
+
 ##Installation
 
 1. Clone this repo into the 'modules' directory of your Drupal 8 site.
@@ -42,7 +44,13 @@ composer config repositories.drupal composer https://packages.drupal.org/8
 ```
 composer require "drupal/address ~1.0"
 ```
-5. On the 'Extend' page check the boxes for 'Location','Featured location', and 'Map', and click 'install'. Drupal will detect the dependencies and ask if you want to install them. Click yes and the packages will be installed. 
+5. On the 'Extend' page check the boxes for 'Location', 'Featured location', and 'Map', and click 'install'. Drupal will detect the dependencies and ask if you want to install them. Click yes and the packages will be installed. 
+
+###For default content
+
+1. Download the default content module for Drupal 8 <a href="https://www.drupal.org/project/default_content">here</a> and put it in your modules directory.
+
+2. Go to the 'extend' page and enable Location Default Content, when it prompts you to install Default Content module as a dependency, click yes.
 
 ##To use
 
